@@ -1,0 +1,92 @@
+:root{
+    --cor1:#164773;
+    --cor2:#0B2B40;
+    --cor3:#1E5959;
+    --cor4:#3B8C6E;
+    --cor5:#89D99D;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to right,#BCC5CE,#729599);
+    background-attachment: fixed;
+   }
+
+   header > h1{
+    min-height:70px ;
+       color: white;
+       text-align: center;
+       background-image: linear-gradient(to bottom,#2b8888,#328d6c);
+       background-attachment: fixed;
+       padding-top: 20px;
+       font:bolder arial
+   }
+   main{
+    background-color: white;
+    font: bold 16px arial;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.356);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px ;
+    
+   }
+   article img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+   } 
+.primero p{
+    margin: 10px 0px 10px -20px;
+    font:bold 16px arial;
+   }
+   main>h2{
+    padding: 5px;
+    margin-bottom: 3px;
+   }
+   main article{
+        margin-bottom: 20px;
+       text-align: justify;
+       text-indent: 20px;
+       line-height: 2em;
+       font: 18px arial;
+       
+   }
+   .cursando{
+    padding: 10px;
+    font: bold 18px arial
+    
+   }
+   .instituição{
+       color: black;
+       text-align: justify;
+       font: 18px arial
+       
+   }
+   #ingleis{
+    padding: 7px;
+       font: 18px arial;
+
+   }
+   p>a{
+       text-decoration: none;
+       color: #6ead7e
+   }
+   p>a:visited{
+       color: #31775d
+   }
+   p>a:hover{
+       color: #164773;
+       text-decoration: underline;
+   }
+   p>a:active{
+       color: #164773
+   }
+
+.experiencia{
+    font: 16px arial;
+}

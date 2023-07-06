@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/*mobile first*/
+:root{
+    --cor1:#164773;
+    --cor2:#0B2B40;
+    --cor3:#1E5959;
+    --cor4:#3B8C6E;
+    --cor5:#89D99D;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right,#BCC5CE,#729599);
+    background-attachment: fixed;
+    height: 100vh;
+   }
+   header > h1{
+    height:50px ;
+       color: white;
+       text-align: center;
+       background-image: linear-gradient(to bottom,#2b8888,#328d6c);
+       background-attachment: fixed;
+       padding-top: 15px;
+       font:bolder arial
+   }
+   main{
+    background-color: white;
+    font: bold 16px arial;
+    width: 380px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.356);
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px ;
+   }
+   h2{
+    font-size: 20px;
+   }
+   #primero p{
+    margin: 10px 0px 10px -10px;
+    font:bold 17px arial;
+   }
+   article img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin-left: -10px;
+   } 
+   main>h2{
+    padding: 5px;
+    margin-bottom: 3px;
+   }
+   main article{
+    margin-bottom: 5px;
+
+   text-align: justify;
+   text-indent: 10px;
+   font: 18px;
+}
+#objetivo{
+    margin-left: -15px;
+    line-height: 1.5em;
+}
+.cursando{
+    padding: 10px;
+    font: bold 18px arial
+    
+}
+#formação{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.instituição{
+    color: black;
+    text-align: justify;
+    font: 18px arial
+}
+#ingleis{
+    padding: 4px;
+       font: 18px arial;
+    margin-bottom: 5px;
+}
+       p>a{
+        text-decoration: none;
+        color: #6ead7e
+    }
+    p>a:visited{
+        color: #31775d
+    }
+    p>a:hover{
+        color: #164773;
+        text-decoration: underline;
+    }
+    p>a:active{
+        color: #164773
+    }
+    .novo{
+        margin-top: 15px;
+        padding-bottom: 10px;
+    }
+    .experiencia{
+        font: 16px arial;
+        margin-top: 5px;
+    }
