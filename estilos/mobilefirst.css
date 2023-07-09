@@ -29,7 +29,7 @@ body{
    main{
     background-color: white;
     font: bold 16px arial;
-    width: 380px;
+    width: 270px;
     margin: auto;
     padding: 30px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.356);
@@ -37,17 +37,18 @@ body{
     border-bottom-right-radius: 10px ;
    }
    h2{
-    font-size: 20px;
+    font-size: 18px;
+    margin-left: -20px;
    }
    #primero p{
-    margin: 10px 0px 10px -10px;
-    font:bold 17px arial;
+    margin: 10px 0px 10px -25px;
+    font:bold 15px arial;
    }
    article img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
-    margin-left: -10px;
+    margin-left: -20px;
    } 
    main>h2{
     padding: 5px;
@@ -55,18 +56,20 @@ body{
    }
    main article{
     margin-bottom: 5px;
-
    text-align: justify;
    text-indent: 10px;
    font: 18px;
 }
 #objetivo{
     margin-left: -15px;
-    line-height: 1.5em;
+    line-height: 20px;
+    font:normal 16px arial;
+    text-align: justify;
 }
 .cursando{
+    margin-left: -16px;
     padding: 10px;
-    font: bold 18px arial
+    font: bold 17px arial
     
 }
 #formação{
@@ -76,12 +79,11 @@ body{
 .instituição{
     color: black;
     text-align: justify;
-    font: 18px arial
+    font: 17px arial
 }
 #ingleis{
     padding: 4px;
-       font: 18px arial;
-    margin-bottom: 5px;
+       font: 16px arial;
 }
        p>a{
         text-decoration: none;
@@ -98,10 +100,15 @@ body{
         color: #164773
     }
     .novo{
-        margin-top: 15px;
-        padding-bottom: 10px;
+        margin-top: 4px;
+        padding-bottom: 6px;
     }
     .experiencia{
-        font: 16px arial;
-        margin-top: 5px;
+        font: 14px arial;
+        margin: 5px 0px 8px ;
     }
+
+    section{
+        width: 270px;
+    }
+    
