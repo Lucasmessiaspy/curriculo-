@@ -17,6 +17,9 @@ body{
     background-attachment: fixed;
     height: 100vh;
    }
+   header{
+    margin-top: -17px;
+   }
    header > h1{
     height:50px ;
        color: white;

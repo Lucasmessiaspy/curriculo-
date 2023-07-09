@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (min-width:481px) and (max-width:580px){
+    main{
+        width: 390px;
+    }
+    header{
+        margin-top: -17px;
+        
+    }
+    header>h1{
+        height: 60px;
+    }
+    article img{
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        margin-left: -20px;
+        margin-top: -7px;
+       } 
+       #primero p{
+        font:bold 17px arial;
+       }
+       h2{
+        font-size: 20px;
+       }
+       #objetivo{
+        line-height: 28px;
+        font:normal 18px arial;
+    }
+    .cursando{
+        margin-left: -16px;
+        padding: 10px;
+        font: bold 20px arial
+        
+    }
+    section{
+        width: 392px;
+    }
+    .instituição{
+        color: black;
+        text-align: justify;
+        font: 18.5px arial
+    }
+    .experiencia{
+        font: 16px arial;
+    }
+    #ingleis{
+        font: 18px arial;
+    }
+        
+}
