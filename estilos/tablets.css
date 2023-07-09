@@ -95,3 +95,42 @@
         font: 20px arial;
     }
 }
+@media screen and (min-width:682px) and (max-width:768px) {
+    main{
+        width:570px;}
+        header > h1{
+            height:70px ;
+               padding-top: 20px;
+               font:bolder arial;
+           }
+           article img{
+            width: 135px;
+            height: 135px;
+            border-radius: 100%;
+           } 
+           #primero p{
+            font:bold 18px arial;
+           }
+           h2{
+            font-size: 23px;
+           }
+           #objetivo{
+            line-height: 28px;
+            font:normal 20px arial;
+        }
+        .instituição{
+            color: black;
+            text-align: justify;
+            font: 20px arial
+        }
+        .cursando{
+            margin-left: -16px;
+            padding: 10px;
+            font: bold 22px arial
+            
+        }
+        #ingleis{
+            font: 20px arial;
+        }
+           
+}

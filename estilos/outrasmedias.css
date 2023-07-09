@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
- @media screen and (min-width: 992px) {
+ @media screen and (min-width: 769px) {
     /*dektop*/
     header > h1{
         height:70px ;
@@ -9,7 +9,7 @@
        }
        main{
         font: bold 16px arial;
-        width: 800px;
+        width: 700px;
         padding: 30px;
         box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.356);
         border-bottom-left-radius:10px ;
@@ -21,32 +21,33 @@
         height: 150px;
         border-radius: 100%;
        } 
-       .primero p{
-        margin: 10px 0px 10px -20px;
-        font:bold 16px arial;
+       #primero p{
+        margin: 10px 0px 10px -30px;
+        font:bold 18px arial;
        }
-       main article{
-        margin-bottom: 20px;
-       text-indent: 20px;
-       line-height: 2em; 
-   }
-   #ingleis{
-    padding: 7px;}
-    .novo{
-        margin-top: 20px;
+
+    h2{
+        font-size: 23px;
+       }
+       #objetivo{
+        line-height: 28px;
+        font:normal 20px arial;
     }
-    
- }
- @media screen and (min-width:768px) and (max-width:992px){
-    main{
-       width: 600px;
-       margin-top: 0px;
+    .instituição{
+        color: black;
+        text-align: justify;
+        font: 20px arial
     }
-    header>h1{
-        height: 60px;
+    .cursando{
+        margin-left: -16px;
+        padding: 10px;
+        font: bold 22px arial
+        
     }
-    article>img{
-        width: 130px;
-        height: 130px;
+    #ingleis{
+        font: 20px arial;
+    }
+    .experiencia{
+        font: 18px arial;
     }
  }
