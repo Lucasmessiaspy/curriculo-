@@ -112,4 +112,10 @@ body{
     section{
         width: 270px;
     }
+    @media screen and (min-width:400px) and (max-width:480px){
+        main{
+            width: 310px;
+        }
+        
+    }
     
